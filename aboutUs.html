@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--ie使用edge渲染模式-->
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+	<meta name="renderer" content="webkit"><!--360渲染模式-->
+	<meta name="format-detection" content="telephone=notelphone=no, email=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<!--响应式导航栏-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta name="x5-page-mode" content="app"><!-- QQ应用模式 -->
+	<meta name="msapplication-tap-highlight" content="no"><!-- windows phone 点击无高光 -->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />-->
+	<link rel="stylesheet" type="text/css" href="./css/nav_footer.css"> <!--nav and footer-->
+	<link rel="stylesheet" type="text/css" href="css/aboutUs.css">
+	<!--轮播图js-->
+	<script src="./js/jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="./js/wySilder.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="./js/pageswitch.js"></script>
+	<script>
+        $(function (){
+            $(".js-silder").silder({
+                auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
+                speed: 20,//轮播图运动速度
+                sideCtrl: true,//是否需要侧边控制按钮
+                bottomCtrl: false,//是否需要底部控制按钮
+                defaultView: 0,//默认显示的索引
+                interval: 1000,//自动轮播的时间，以毫秒为单位，默认3000毫秒
+                activeClass: "active",//小的控制按钮激活的样式，不包括作用两边，默认active
+            });
+        });
+	</script>
+	<title>众焰科技—关于我们</title>
+</head>
+
+<body>
+	<!--<div id="container">-->
+
+	<!--响应式导航栏-->
+	<nav class="nav navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">
+					<img src="images/logo.png" style="width: 200px;height:80px;">
+				</a>
+
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav nav">
+					<li><a href="index.html">公司首页</a></li>
+					<li><a href="culture.html">企业文化</a></li>
+					<li><a href="product.html">产品介绍</a></li>
+					<li><a href="partner.html">合作伙伴</a></li>
+					<li><a href="aboutUs.html">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+		<!--滚动大图-->
+		<!--
+		<div id="big_picture">
+		<div class="js-silder">
+			<div class="silder-scroll">
+				<div class="silder-main">
+					<div class="silder-main-img">
+						<img src="./images/logo1.jpg" alt="">
+					</div>
+					<div class="silder-main-img">
+						<img src="./images/logo.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		-->
+
+		<!--正文显示部分-->
+		<!--<div id="context">
+		<div class="context_con1">
+			<img src="./images/test2.jpg" />
+		</div>
+		<div class="context_con2">
+			<img src="./images/test1.png" />
+		</div>
+		<div class="context_con3">
+			<img src="./images/logo1.jpg" />
+		</div>-->
+
+		<!--全屏滚动图-->
+		<div id="container" data-PageSwitch>
+			<div class="sections">
+				<div class="section active" id="section0">
+					<div class="intro">
+						<h1 class="title"><img style="width:600px; height: 300px;" src="./images/logo.png"></h1>
+						<p>欢迎光临武汉市众焰科技有限公司官网!</p>
+					</div>
+				</div>
+				<div class="section" id="section1">
+					<div class="intro">
+						<h1 class="title">众焰科技</h1>
+						<p>欢迎光临武汉市众焰科技有限公司官网!</p>
+						<img src="images/example.png"/>
+					</div>
+				</div>
+				<div class="section" id="section2">
+					<div class="intro">
+						<h1 class="title">众焰科技</h1>
+						<p>欢迎光临武汉市众焰科技有限公司官网!</p>
+						<img src="images/example2.png"/>
+					</div>
+				</div>
+				<div class="section" id="section3">
+					<div class="intro">
+						<h1 class="title">众焰科技</h1>
+						<p>欢迎光临武汉市众焰科技有限公司官网!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<div id="footer">
+		<div id="footer_con">
+			<div class="logo">
+				<img src="./images/company_qrcode.jpg" />
+			</div>
+			<div class="footer_context">
+				<p>联系我们</p>
+				<p>邮箱：aleczheng@yeah.net</p>
+				<p>公司地址：湖北省武汉市江夏区黄家湖大道333号武汉学院</p>
+			</div>
+			<div class="qr_code">
+				<img src="./images/public_qrcode.jpg" />
+			</div>
+			<div class="copyright">
+				<p>2017© 众焰科技 All Rights Received.</p>
+			</div>
+		</div>
+	</div>
+
+	<!--首页脚本-->
+	<script type="text/javascript">
+        $("#container").PageSwitch({
+            index: 0,    //页面开始的索引，0是第一页。
+            easing:"linear",   //动画效果。  ease
+            duration:500,      //动画执行时间
+            loop:true,         //是否循环切换
+            pagination:true,   //是否进行分页
+            keybosrd:true,     //是否出发键盘事件
+            direction : "vertical",    //滑动方向：vertical（竖版）。horizontal（横板）
+            callback:function(){
+                $("h1").addClass("slide");
+            }
+        });
+	</script>
+</body>
+</html>

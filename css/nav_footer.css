@@ -1,0 +1,93 @@
+/*最外部容器*/
+#container {
+    width:100%;
+}
+* {
+    margin:0 auto;
+    padding:0;
+}
+
+
+/*顶部logo及导航*/
+/*
+#top {
+    border-bottom: solid 1px blue;
+    height:80px;
+    width:100%;
+    margin:0 auto;
+    position: fixed;
+    z-index: 100;
+    background: rgba(236,240,241,0.4);
+}
+#nav {
+    width:80%;
+    margin:0 auto;
+}
+.logo {
+    float:left;
+}
+.nav li {
+    float:right;
+    line-height: 80px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 华文中宋;
+    font-size: 20px;
+    margin-left: 8%;
+    overflow: hidden;
+}
+.nav li a {
+    text-decoration: none;
+}
+.nav li a:hover {
+    color:red;
+    border-bottom: solid 3px red;
+    padding-bottom: 25px;
+}*/
+
+
+
+
+
+
+/*底部*/
+#footer {
+    border-top: solid 1px blue;
+    border-bottom: solid 1px blue;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width:100%;
+    background: rgba(236,240,241,0.4);
+}
+#footer_con {
+    width:80%;
+    margin:0 auto;
+}
+.logo img {
+    width:120px;
+    height: 120px;
+}
+.footer_context {
+    float:left;
+    width:80%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 华文中宋;
+    color:blue;
+    line-height: 40px;
+}
+.qr_code {
+    float: right;
+}
+.qr_code img {
+    height: 120px;
+    width:120px;
+}
+.copyright p {
+    line-height: 80px;
+    font-size: 20px;
+    font-family: 华文中宋;
+    text-align: center;
+    color:blue;
+    clear: both;
+}
